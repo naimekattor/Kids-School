@@ -281,9 +281,10 @@ body {
   #heaeder-section,
   #banner-section,
   #curriculum-section,
-  #stories-section {
+  #stories-section,
+  .footer-main {
     padding: 0 2%;
-    width: 100%;
+    width: 80% !important;
   }
   .header-menu {
     display: none;
@@ -316,10 +317,10 @@ body {
   #footer-section {
     width: 100%;
   }
-  .footer-main {
+  /* .footer-main {
     width: 100%;
     padding: 0 2%;
-  }
+  } */
   .banner-right img {
     width: 100%;
   }
