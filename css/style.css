@@ -202,12 +202,15 @@ body {
   position: absolute;
   bottom: -10px;
   left: 50px;
-  background: #3cd8e8;
+  background: #95b226;
   font-size: 15px;
   font-weight: 500;
   color: #ffffff;
   padding: 10px 15px;
   border-radius: 50px;
+}
+.blue-span {
+  background: #5d58f0 !important;
 }
 .stor-cards-right {
   display: grid;
@@ -299,6 +302,7 @@ body {
   .curr-cards {
     flex-direction: column;
   }
+  .arrow-icon,
   .stor-card-left {
     display: none;
   }
@@ -309,11 +313,26 @@ body {
     font-size: 32px;
     font-weight: 700;
   }
+  #footer-section {
+    width: 100%;
+  }
   .footer-main {
     width: 100%;
     padding: 0 2%;
   }
   .banner-right img {
     width: 100%;
+  }
+  #banner-section {
+    text-align: center;
+  }
+  #curriculum-section h1 {
+    margin-top: 30px;
+  }
+  .stor-img span {
+    left: 20px;
+  }
+  .stor-btn {
+    margin-bottom: 60px;
   }
 }
